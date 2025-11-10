@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#D32F2F"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BINGO"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:padding="8dp">
+
+        <!-- Row 1 -->
+        <TextView android:text="7"   android:id="@+id/tv_b7"   android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="26"  android:id="@+id/tv_b26"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="40"  android:id="@+id/tv_b40"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="58"  android:id="@+id/tv_b58"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="73"  android:id="@+id/tv_b73"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+
+        <!-- Row 2 -->
+        <TextView android:text="14"  android:id="@+id/tv_i14"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="22"  android:id="@+id/tv_i22"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="34"  android:id="@+id/tv_i34"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="55"  android:id="@+id/tv_i55"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="68"  android:id="@+id/tv_i68"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+
+        <!-- Row 3 -->
+        <TextView android:text="4"   android:id="@+id/tv_n4"   android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="24"  android:id="@+id/tv_n24"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="FREE" android:id="@+id/tv_free" android:background="#FFCDD2" android:gravity="center" android:textSize="18sp" android:textStyle="bold" android:textColor="#C2185B" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="46"  android:id="@+id/tv_n46"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="72"  android:id="@+id/tv_n72"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+
+        <!-- Row 4 -->
+        <TextView android:text="9"   android:id="@+id/tv_g9"   android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="20"  android:id="@+id/tv_g20"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="36"  android:id="@+id/tv_g36"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="52"  android:id="@+id/tv_g52"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="74"  android:id="@+id/tv_g74"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+
+        <!-- Row 5 -->
+        <TextView android:text="6"   android:id="@+id/tv_o6"   android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="28"  android:id="@+id/tv_o28"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="35"  android:id="@+id/tv_o35"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="49"  android:id="@+id/tv_o49"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+        <TextView android:text="64"  android:id="@+id/tv_o64"  android:background="#FFEBEE" android:gravity="center" android:textSize="20sp" android:textStyle="bold" android:textColor="#D32F2F" android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="2dp"/>
+    </GridLayout>
+
+    <!-- 底部控制區 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_called_number"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="Press New Game to Start"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:background="#FFEBEE"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/round_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Round: 0"
+            android:textSize="24sp"/>
+
+
+        <LinearLayout
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Bingo" />
+
+        <ImageView
+            android:id="@+id/iv_config"
+            android:layout_width="356dp"
+            android:layout_height="56dp"
+            android:layout_weight="2"
+            android:background="#FFEBEE"
+            android:clickable="true"
+            android:contentDescription="Settings"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_settings" />
+
+        <Button
+            android:id="@+id/btn_new_game"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="3"
+            android:backgroundTint="#D32F2F"
+            android:text="New Game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
